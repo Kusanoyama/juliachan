@@ -21,7 +21,7 @@ client = Client(
 )
 
 on_message_create!(client) do (ctx) 
-    if ctx.message.author.id != app_id
+    if ctx.message.author.id != app_id | ctx.message.author.id != 503720029456695306
         if occursin("uwu",ctx.message.content)
             reply(client, ctx, content=uwufy(ctx.message.content))
         end
