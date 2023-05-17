@@ -4,7 +4,7 @@ include("../env.jl")
 include("uwufy.jl")
 
 #compute intent integer
-intentvec= [0,1,3,7,8,9,10,12,13,14,15]
+intentvec= [0,1,3,7,9,10,12,13,14,15]
 shift(x) = 1 << x
 intentsum = sum(shift.(intentvec))
 
