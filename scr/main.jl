@@ -3,8 +3,8 @@ using Ekztazy
 include("../env.jl")
 include("uwufy.jl")
 
-#compute intent integer
-intentvec= [0,1,3,7,9,10,12,13,14,15]
+#compute intent integer 10, 13,
+intentvec= [0,1,9,12,15]
 shift(x) = 1 << x
 intentsum = sum(shift.(intentvec))
 
