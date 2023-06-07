@@ -1,4 +1,4 @@
-## Setup for developement:
+## Setup:
 First time:  
 py -m venv venv  
 Windows: > venv\Scripts\activate
